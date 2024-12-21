@@ -1,5 +1,5 @@
 const express = require('express');
-const { upload } = require('../middlewares/multerConfig');
+const { upload } = require('../middleware/multerconfig');
 const { predict } = require('../controllers/predictionController');
 
 const router = express.Router();

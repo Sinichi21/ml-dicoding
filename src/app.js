@@ -1,6 +1,6 @@
 const express = require('express');
 const { loadModel } = require('./services/modelService');
-const predictionRoutes = require('./routes/predictionRoutes');
+const predictionRoutes = require('./routers/predictionRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 8080;
